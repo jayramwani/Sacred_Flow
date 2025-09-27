@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Flow - Smart Pilgrimage Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+
+        <!-- Slide Indicators -->
+        <div class="slide-indicators">
+            <div class="indicator active" data-slide="0"></div>
+            <div class="indicator" data-slide="1"></div>
+            <div class="indicator" data-slide="2"></div>
+            <div class="indicator" data-slide="3"></div>
+            <div class="indicator" data-slide="4"></div>
+            <div class="indicator" data-slide="5"></div>
+            <div class="indicator" data-slide="6"></div>
+            <div class="indicator" data-slide="7"></div>
+            <div class="indicator" data-slide="8"></div>
+            <div class="indicator" data-slide="9"></div>
+        </div>
+
+        <!-- Slide 1: Title -->
+        <div class="slide active" data-slide="0">
+            <div class="slide-number">1/10</div>
+            <div class="slide-content">
+                <div class="title-slide">
+                    <div class="om-symbol">🕉️</div>
+                    <h1 class="main-title">Sacred Flow</h1>
+                    <h2 class="subtitle">AI-Powered Smart Crowd Management for Pilgrimage Sites</h2>
+                    <p class="tagline">Transforming Spiritual Journeys Through Technology</p>
+                    <div class="team-info">
+                        <div class="info-card">
+                            <p><strong>Team:</strong> Digital Devotees</p>
+                            <p><strong>Hackathon:</strong> Smart India Solutions 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Problem Statement -->
+        <div class="slide" data-slide="1">
+            <div class="slide-number">2/10</div>
+            <div class="slide-content">
+                <div class="slide-header">
+                    <div class="icon">🚨</div>
+                    <h2>The Challenge</h2>
+                </div>
+                <p class="section-description">India's pilgrimage sites face critical crowd management challenges</p>
+                
+                <div class="problem-grid">
+                    <div class="problem-card" data-animation="fade-up">
+                        <div class="card-icon">👥</div>
+                        <h3>Overcrowding & Queue Management</h3>
+                        <p>Long waiting times, lack of real-time queue visibility, and bottlenecks during entry/exit</p>
+                    </div>
+                    <div class="problem-card" data-animation="fade-up" data-delay="100">
+                        <div class="card-icon">🛡️</div>
+                        <h3>Safety & Emergency Response</h3>
+                        <p>Risk of stampedes, medical emergencies, and insufficient early warning mechanisms</p>
+                    </div>
+                    <div class="problem-card" data-animation="fade-up" data-delay="200">
+                        <div class="card-icon">🚗</div>
+                        <h3>Traffic & Mobility Challenges</h3>
+                        <p>Congested approach roads, parking shortages, and inefficient flow of vehicles</p>
+                    </div>
+                    <div class="problem-card" data-animation="fade-up" data-delay="300">
+                        <div class="card-icon">📱</div>
+                        <h3>Pilgrim Guidance & Communication</h3>
+                        <p>Limited digital tools for real-time updates on waiting times and emergency alerts</p>
+                    </div>
+                    <div class="problem-card" data-animation="fade-up" data-delay="400">
+                        <div class="card-icon">⚡</div>
+                        <h3>Resource Optimization</h3>
+                        <p>Lack of AI-driven tools for predicting peak crowds and deploying staff accordingly</p>
+                    </div>
+                    <div class="problem-card" data-animation="fade-up" data-delay="500">
+                        <div class="card-icon">♿</div>
+                        <h3>Inclusivity & Accessibility</h3>
+                        <p>Inadequate solutions for elderly, women, children, and differently-abled devotees</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Market Opportunity -->
+        <div class="slide" data-slide="2">
+            <div class="slide-number">3/10</div>
+            <div class="slide-content">
+                <div class="slide-header">
+                    <div class="icon">📊</div>
+                    <h2>Market Impact</h2>
+                </div>
+                
+                <div class="impact-stats">
+                    <div class="stat-card" data-animation="scale-up">
+                        <div class="stat-number">50M+</div>
+                        <p>Annual pilgrims to Gujarat temples</p>
+                    </div>
+                    <div class="stat-card" data-animation="scale-up" data-delay="100">
+                        <div class="stat-number">₹15,000Cr</div>
+                        <p>Religious tourism market size</p>
+                    </div>
+                    <div class="stat-card" data-animation="scale-up" data-delay="200">
+                        <div class="stat-number">2000+</div>
+                        <p>Major pilgrimage sites in India</p>
+                    </div>
+                    <div class="stat-card" data-animation="scale-up" data-delay="300">
+                        <div class="stat-number">68%</div>
+                        <p>Growth in spiritual tourism</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-box">
+                    <p><span class="highlight">Gujarat's Sacred Sites:</span> Somnath, Dwarka, Ambaji, and Pavagadh witness massive footfalls during festivals and auspicious days</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Our Solution -->
+        <div class="slide" data-slide="3">
+            <div class="slide-number">4/10</div>
+            <div class="slide-content">
+                <div class="slide-header">
+                    <div class="icon">💡</div>
+                    <h2>Sacred Flow Solution</h2>
+                </div>
+                
+                <div class="solution-container">
+                    <div class="solution-card" data-animation="slide-left">
+                        <div class="card-icon">🧠</div>
+                        <h3>AI/ML Crowd Prediction</h3>
+                        <ul>
+                            <li>Forecasting visitor surges using historical data</li>
+                            <li>Weather & festival calendar integration</li>
+                            <li>Social media sentiment analysis</li>
+                            <li>95% accuracy in crowd predictions</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="solution-card" data-animation="slide-up" data-delay="200">
+                        <div class="card-icon">📱</div>
+                        <h3>Smart Queue & Ticketing</h3>
+                        <ul>
+                            <li>Virtual darshan booking system</li>
+                            <li>Digital queue management with real-time updates</li>
+                            <li>QR-based entry validation</li>
+                            <li>Mobile app and kiosk integration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="solution-card" data-animation="slide-right" data-delay="400">
+                        <div class="card-icon">🛡️</div>
+                        <h3>IoT & Safety Monitoring</h3>
+                        <ul>
+                            <li>AI-powered crowd density sensors</li>
+                            <li>CCTV with computer vision analytics</li>
+                            <li>Real-time panic detection system</li>
+                            <li>Automated emergency response alerts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Architecture -->
+        <div class="slide" data-slide="4">
+            <div class="slide-number">5/10</div>
+            <div class="slide-content">
+                <div class="slide-header">
+                    <div class="icon">🏗️</div>
+                    <h2>System Architecture</h2>
+                </div>
+                
+                <div class="architecture-diagram">
+                    <div class="flow-step" data-animation="slide-right">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <strong>Data Collection Layer</strong>
+                            <p>IoT sensors, CCTV cameras, mobile app data, weather APIs, festival calendars</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flow-step" data-animation="slide-right" data-delay="150">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <strong>AI Processing Engine</strong>
+                            <p>ML models for crowd prediction, computer vision for monitoring, real-time analytics</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flow-step" data-animation="slide-right" data-delay="300">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <strong>Decision Management System</strong>
+                            <p>Automated alerts, resource allocation, emergency response coordination</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flow-step" data-animation="slide-right" data-delay="450">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <strong>User Interface Layer</strong>
+                            <p>Mobile apps, web dashboards, digital signage, multilingual support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Key Features -->
+        <div class="slide" data-slide="5">
+            <div class="slide-number">6/10</div>
+            <div class="slide-content">
+                <div class="slide-header">
+                    <div class="icon">✨</div>
+                    <h2>Key Features</h2>
+                </div>
+                
+                <div class="solution-container">
+                    <div class="solution-card" data-animation="fade-up">
+                        <div class="card-icon">🎯</div>
+                        <h3>Pilgrim Engagement Platform</h3>
+                        <ul>
+                            <li>Virtual darshan booking & queue management</li>
+                            <li>Live temple status & wait times</li>
+                            <li>Navigation assistance & route optimization</li>
+                            <li>Emergency SOS button & medical assistance</li>
+                            <li>Multi-language support (Hindi, Gujarati, English)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="solution-card" data-animation="fade-up" data-delay="200">
+                        <div class="card-icon">📊</div>
+                        <h3>Admin Control Center</h3>
+                        <ul>
+                            <li>Real-time crowd heatmaps & density monitoring</li>
+                            <li>Predictive analytics dashboard</li>
+                            <li>Resource deployment optimization</li>
+                            <li>Emergency response coordination tools</li>
+                            <li>Performance metrics & reporting</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="solution-card" data-animation="fade-up" data-delay="400">
+                        <div class="card-icon">♿</div>
+                        <h3>Accessibility Features</h3>
+                        <ul>
+                            <li>Priority services for elderly & differently-abled</li>
+                            <li>Audio navigation assistance</li>
+                            <li>Wheelchair-accessible route planning</li>
+                            <li>Special assistance booking system</li>
+                            <li>Family group management tools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Technology Stack -->
+        <div class="slide" data-slide="6">
+            <div class="slide-number">7/10</div>
+            <div class="slide-content">
+                <div class="slide-header">
+                    <div class="icon">⚡</div>
+                    <h2>Technology Stack</h2>
+                </div>
+                
+                <div class="tech-sections">
+                    <div class="tech-section" data-animation="slide-up">
+                        <h3>Frontend & Mobile</h3>
+                        <div class="tech-stack">
+                            <div class="tech-item">React Native</div>
+                            <div class="tech-item">React.js</div>
+                            <div class="tech-item">Flutter</div>
+                            <div class="tech-item">PWA</div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-section" data-animation="slide-up" data-delay="150">
+                        <h3>AI & Machine Learning</h3>
+                        <div class="tech-stack">
+                            <div class="tech-item">Python</div>
+                            <div class="tech-item">TensorFlow</div>
+                            <div class="tech-item">OpenCV</div>
+                            <div class="tech-item">PyTorch</div>
+                            <div class="tech-item">Scikit-learn</div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-section" data-animation="slide-up" data-delay="300">
+                        <h3>Backend & Cloud</h3>
+                        <div class="tech-stack">
+                            <div class="tech-item">FastAPI</div>
+                            <div class="tech-item">Node.js</div>
+                            <div class="tech-item">MongoDB</div>
+                            <div class="tech-item">Redis</div>
+                            <div class="tech-item">AWS/Azure</div>
+                            <div class="tech-item">Docker</div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-section" data-animation="slide-up" data-delay="450">
+                        <h3>IoT & Hardware</h3>
+                        <div class="tech-stack">
+                            <div class="tech-item">Raspberry Pi</div>
+                            <div class="tech-item">MQTT</div>
+                            <div class="tech-item">Camera Systems</div>
+                            <div class="tech-item">Crowd Sensors</div>
+                            <div class="tech-item">Drones</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Implementation Plan -->
+        <div class="slide" data-slide="7">
+            <div class="slide-number">8/10</div>
+            <div class="slide-content">
+                <div class="slide-header">
+                    <div class="icon">🗓️</div>
+                    <h2>Implementation Roadmap</h2>
+                </div>
+                
+                <div class="roadmap">
+                    <div class="flow-step" data-animation="slide-right">
+                        <div class="step-number phase">Phase 1</div>
+                        <div class="step-content">
+                            <strong>Pilot Deployment (3 months)</strong>
+                            <p>Deploy at Somnath & Dwarka temples, basic crowd monitoring, mobile app launch</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flow-step" data-animation="slide-right" data-delay="150">
+                        <div class="step-number phase">Phase 2</div>
+                        <div class="step-content">
+                            <strong>AI Integration (6 months)</strong>
+                            <p>Implement ML models, predictive analytics, emergency response systems</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flow-step" data-animation="slide-right" data-delay="300">
+                        <div class="step-number phase">Phase 3</div>
+                        <div class="step-content">
+                            <strong>Scale & Enhance (12 months)</strong>
+                            <p>Expand to Ambaji & Pavagadh, advanced features, government integration</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flow-step" data-animation="slide-right" data-delay="450">
+                        <div class="step-number phase">Phase 4</div>
+                        <div class="step-content">
+                            <strong>National Rollout (18 months)</strong>
+                            <p>Pan-India deployment across all major pilgrimage sites, continuous improvement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Demo -->
+        <div class="slide" data-slide="8">
+            <div class="slide-number">9/10</div>
+            <div class="slide-content">
+                <div class="slide-header">
+                    <div class="icon">🎬</div>
+                    <h2>Live Demo</h2>
+                </div>
+                
+                <div class="demo-section" data-animation="fade-up">
+                    <h3>Simulated Scenario: Diwali at Somnath Temple</h3>
+                    
+                    <div class="demo-content">
+                        <div class="status-section">
+                            <p class="status-title">📊 Current Status:</p>
+                            <ul class="status-list">
+                                <li>🔴 High crowd density detected (85% capacity)</li>
+                                <li>⏰ Current wait time: 2.5 hours</li>
+                                <li>🚨 Automatic alerts sent to authorities</li>
+                                <li>📱 500+ devotees using our app for queue booking</li>
+                                <li>🚗 Overflow parking activated automatically</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="recommendations-section">
+                            <p class="status-title">🤖 AI Recommendations:</p>
+                            <ul class="status-list">
+                                <li>Redirect 200 devotees to alternative entry points</li>
+                                <li>Deploy 3 additional security personnel</li>
+                                <li>Activate shuttle service from remote parking</li>
+                                <li>Send push notifications about less crowded timings</li>
+                                <li>Enable priority queue for elderly & families</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="demo-placeholder">
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <div class="app-header">Sacred Flow App</div>
+                                <div class="app-content">
+                                    <div class="status-indicator red">High Crowd Alert</div>
+                                    <div class="wait-time">Wait Time: 2.5 hrs</div>
+                                    <div class="suggestion">💡 Visit between 6-8 AM for shorter wait</div>
+                                    <div class="booking-btn">Book Virtual Queue</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Call to Action -->
+        <div class="slide" data-slide="9">
+            <div class="slide-number">10/10</div>
+            <div class="slide-content">
+                <div class="cta-slide">
+                    <div class="rocket">🚀</div>
+                    <h1>Ready to Transform Pilgrimage Experience</h1>
+                    
+                    <div class="final-stats">
+                        <div class="stat-card" data-animation="scale-up">
+                            <div class="stat-number">75%</div>
+                            <p>Reduction in wait times</p>
+                        </div>
+                        <div class="stat-card" data-animation="scale-up" data-delay="100">
+                            <div class="stat-number">90%</div>
+                            <p>Improved safety scores</p>
+                        </div>
+                        <div class="stat-card" data-animation="scale-up" data-delay="200">
+                            <div class="stat-number">50%</div>
+                            <p>Better resource utilization</p>
+                        </div>
+                        <div class="stat-card" data-animation="scale-up" data-delay="300">
+                            <div class="stat-number">100%</div>
+                            <p>Accessibility compliance</p>
+                        </div>
+                    </div>
+                    
+                    <div class="next-steps">
+                        <h2>Next Steps</h2>
+                        <p>Partner with us to make pilgrimage safer, smarter, and more spiritual</p>
+                        <div class="contact-info">
+                            <p><strong>Contact:</strong> team@sacredflow.com</p>
+                            <p><strong>GitHub:</strong> github.com/sacredflow</p>
+                        </div>
+                    </div>
+                    
+                    <div class="thank-you">
+                        <h2>🙏 Thank You</h2>
+                        <p>Jai Somnath | Har Har Mahadev</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+        <button class="nav-btn" id="prevBtn">
+            <span>←</span>
+            <span>Previous</span>
+        </button>
+        <button class="nav-btn" id="nextBtn">
+            <span>Next</span>
+            <span>→</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
